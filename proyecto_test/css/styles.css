@@ -1,0 +1,132 @@
+/* Reset de márgenes y paddings para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado */
+header {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    height: 50px;
+}
+
+/* Menú de navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #8bc34a; /* Cambia a verde al pasar el ratón */
+}
+
+/* Estilos de la sección principal */
+main {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Barra lateral */
+.sidebar {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about, .subscribe {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about img, .subscribe img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Botón de suscripción */
+.subscribe button {
+    background-color: #a6d885;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Contenido principal */
+.content {
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Estilos para cada artículo */
+article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Pie de página */
+footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
