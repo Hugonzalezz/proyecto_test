@@ -1,0 +1,76 @@
+/* Contenedor principal de recetas */
+.recetas {
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.recetas h1 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-vegetariana {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.recetas p {
+    color: #555;
+    font-size: 0.95em;
+    margin-bottom: 20px;
+}
+
+/* Estilo de cada receta */
+.receta {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.receta h2 a {
+    font-size: 1.5em;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.receta-info {
+    display: flex;
+    align-items: flex-start; /* Alinear al inicio verticalmente */
+    gap: 15px; /* Espacio entre imagen y texto */
+}
+
+.receta-info img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 15px;
+    flex-shrink: 0; /* Para que la imagen no se redimensione */
+}
+
+.detalles {
+    flex: 1;
+}
+
+.detalles p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+/* Iconos de acciones */
+.iconos {
+    display: flex;
+    gap: 10px;
+    font-size: 1.2em;
+    align-self: center; /* Centrar iconos verticalmente */
+}
+
+.iconos span {
+    cursor: pointer;
+}

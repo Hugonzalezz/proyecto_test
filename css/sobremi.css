@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado y navegación */
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 10px;
+    color: #4CAF50;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Sección principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.sobre-mi {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.perfil h1 {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Habilidades e Intereses */
+.habilidades, .intereses {
+    margin-bottom: 20px;
+}
+
+.habilidades h2, .intereses h2 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.habilidades ul, .intereses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habilidades ul li, .intereses ul li {
+    padding: 5px 0;
+    color: #333;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #4CAF50;
+}
